@@ -52,7 +52,6 @@ class Brave
 
       target.hp -= damage
 
-      # もしターゲットのHPがマイナスになるなら0を代入
       target.hp = 0 if target.hp < 0
 
       puts "#{target.name}は#{damage}のダメージを受けた"
@@ -108,7 +107,6 @@ class Monster
 
       target.hp -= damage
 
-      # もしターゲットのHPがマイナスになるなら0を代入
       target.hp = 0 if target.hp < 0
 
       puts "#{target.name}は#{damage}のダメージを受けた"
